@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_covers",
+  "info": {
+    "displayName": "Cover",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pageBadgeIcon": {
+      "type": "string"
+    },
+    "pageBadg": {
+      "type": "string"
+    },
+    "pageBadgeTex": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "videoId": {
+      "type": "string"
+    },
+    "videobutton": {
+      "type": "boolean"
+    },
+    "DropShadow": {
+      "type": "boolean"
+    }
+  }
+}

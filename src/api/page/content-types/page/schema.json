@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Pages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "ContentBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.left-block"
+    },
+    "PageLeft": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.page-left"
+    },
+    "PageRight": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.right-block"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.cover"
+    },
+    "PageAddins": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.cover",
+        "sections.feature-block",
+        "sections.left-block",
+        "sections.page-center-block",
+        "sections.page-left",
+        "sections.right-block"
+      ]
+    },
+    "Features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.feature-block",
+      "max": 6
+    },
+    "Content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_page_lefts",
+  "info": {
+    "displayName": "PageLeft",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "ImageBlock": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TitleBadge": {
+      "type": "string"
+    }
+  }
+}

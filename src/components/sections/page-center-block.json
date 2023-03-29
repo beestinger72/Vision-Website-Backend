@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_page_center_blocks",
+  "info": {
+    "displayName": "Page Center Block"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "ImageBlock": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
