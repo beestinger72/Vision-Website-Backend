@@ -1,4 +1,4 @@
-# Strapi 4 Backend with Wysi wid can custom component intergration
+# Strapi 4 Backend with Wysiwig CKEditor 5 can custom component intergration
 
 
 ### `develop`
