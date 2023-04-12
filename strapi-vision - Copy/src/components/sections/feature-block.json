@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_feature_blocks",
+  "info": {
+    "displayName": "FeatureBlock"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}
