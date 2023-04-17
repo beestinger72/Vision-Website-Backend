@@ -1,16 +1,13 @@
 {
   "collectionName": "components_sections_page_lefts",
   "info": {
-    "displayName": "Left Block",
+    "displayName": "PageLeft",
     "description": ""
   },
   "options": {},
   "attributes": {
     "Title": {
       "type": "string"
-    },
-    "Content": {
-      "type": "text"
     },
     "ImageBlock": {
       "type": "media",
@@ -25,6 +22,9 @@
     },
     "TitleBadge": {
       "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
     }
   }
 }
