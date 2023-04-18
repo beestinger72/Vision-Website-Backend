@@ -31,8 +31,5 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-"scripts": {
-    "start": "node node_modules/@strapi/strapi/bin/strapi.js start"
-}
   "license": "MIT"
 }
