@@ -18,6 +18,7 @@
     "@strapi/plugin-users-permissions": "4.9.0",
     "@strapi/strapi": "4.9.0",
     "mysql": "2.18.1",
+    "pg": "^8.10.0",
     "strapi-plugin-duplicate-button": "^1.1.7",
     "strapi-plugin-oembed": "^1.0.1"
   },
@@ -31,8 +32,5 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-"scripts": {
-    "start": "node node_modules/@strapi/strapi/bin/strapi.js start"
-}
   "license": "MIT"
 }
