@@ -17,14 +17,12 @@
     "@strapi/plugin-seo": "^1.8.0",
     "@strapi/plugin-users-permissions": "4.9.0",
     "@strapi/strapi": "4.9.0",
-    "knex": "0.21.21",
-    "objection": "^2.2.18",
-    "pg": "8.7.1",
+    "pg": "^8.10.0",
     "strapi-plugin-duplicate-button": "^1.1.7",
     "strapi-plugin-oembed": "^1.0.1"
   },
   "author": {
-    "name": "Joshua Foster"
+    "name": "A Strapi developer"
   },
   "strapi": {
     "uuid": "b7443043-feb4-4d66-90be-d3b299d01968"
