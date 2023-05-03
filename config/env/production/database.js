@@ -3,7 +3,7 @@ const parse = require('pg-connection-string').parse;
 const config = parse(process.env.DATABASE_URL);
 module.exports = ({ env }) => ({
   connection: {
-    client: 'postgres',
+    client: 'app-42c4a654-cde9-4905-8787-77b8c7f0b9eb-do-user-13845580-0.b.db.ondigitalocean.com',
     connection: {
       host: env('DATABASE_HOST', '127.0.0.1'),
       port: env.int('DATABASE_PORT', 5432),
