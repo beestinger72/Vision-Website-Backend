@@ -2,8 +2,7 @@
 const parse = require('pg-connection-string').parse;
 const config = parse(process.env.DATABASE_URL);
 module.exports = ({ env }) => ({
-  connection: {
-      client: 'postgresql',
+
     connection: {
        client: 'postgresql',
       host: env('DATABASE_HOST', '127.0.0.1'),
@@ -28,7 +27,7 @@ module.exports = ({ env }) => ({
       createRetryIntervalMillis: 2000,
       propagateCreateError: false,
     },
-  },
+  
 });
 
 
