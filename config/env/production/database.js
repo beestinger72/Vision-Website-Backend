@@ -7,20 +7,18 @@ module.exports = ({ env }) => ({
   defaultConnection: 'default',
   connections: {
     default: {
-      connector: 'bookshelf',
       settings: {
         client: 'postgres',
-        host: env('DATABASE_HOST', 'localhost'),
-        port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_NAME', 'strapi'),
-        username: env('DATABASE_USERNAME', 'strapi'),
-        password: env('DATABASE_PASSWORD', 'strapi'),
-        ssl: env.bool('DATABASE_SSL', false),
+        host: env('DATABASE_HOST', 'app-42c4a654-cde9-4905-8787-77b8c7f0b9eb-do-user-13845580-0.b.db.ondigitalocean.com'),
+        port: env.int('DATABASE_PORT', 25060),
+        database: env('DATABASE_NAME', 'db'),
+        username: env('DATABASE_USERNAME', 'db'),
+        password: env('DATABASE_PASSWORD', 'AVNS_VJIdCceS_hybYdsvRN3'),
+        ssl: env.bool('DATABASE_SSL', true),
       },
       options: {}
     },
-  }, 
-  debug: false,
+  }, debug: false,
         acquireConnectionTimeout: 600000,
     pool: {
       min: 0,
