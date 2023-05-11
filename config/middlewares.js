@@ -24,7 +24,7 @@ module.exports = ({ env }) => [
             "'self'",
             "data:",
             "blob:",
-            `${env("DO_SPACE_BUCKET")}.${env("DO_SPACE_ENDPOINT")}`,
+            `${env("DO_SPACE_BUCKET")}`,
           ],
           upgradeInsecureRequests: null,
         },
