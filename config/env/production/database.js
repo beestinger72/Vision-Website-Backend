@@ -9,7 +9,7 @@ client: 'postgres',
         username: env('DATABASE_USERNAME', 'db'),
         password: env('DATABASE_PASSWORD', 'AVNS_VJIdCceS_hybYdsvRN3'),
         schema: env('DATABASE_SCHEMA', 'public'),
-        ssl: env.bool('DATABASE_SSL', false),
+        ssl: { rejectUnauthorized: false } 
 
 },
 acquireConnectionTimeout: 1000000,
