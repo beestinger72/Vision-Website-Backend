@@ -17,6 +17,7 @@
     "@strapi/plugin-seo": "^1.8.0",
     "@strapi/plugin-users-permissions": "4.9.0",
     "@strapi/strapi": "4.9.0",
+       "mysql": "2.18.1",
     "pg": "^8.10.0",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-duplicate-button": "^1.1.7",

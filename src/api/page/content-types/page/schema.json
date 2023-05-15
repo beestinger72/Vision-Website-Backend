@@ -68,6 +68,10 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.page-block"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }
