@@ -72,6 +72,11 @@
     "slug": {
       "type": "uid",
       "targetField": "Title"
+    },
+    "FeatureBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.feature-block"
     }
   }
 }
