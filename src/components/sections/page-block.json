@@ -39,6 +39,9 @@
     },
     "TitleAfter": {
       "type": "string"
+    },
+    "BadgeIcon": {
+      "type": "string"
     }
   }
 }
