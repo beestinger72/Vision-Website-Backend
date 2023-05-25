@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_covers",
   "info": {
-    "displayName": "Cover"
+    "displayName": "Cover",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -27,6 +28,12 @@
       "type": "boolean"
     },
     "videoId": {
+      "type": "string"
+    },
+    "titleunderlinebefore": {
+      "type": "string"
+    },
+    "titleunderlineafter": {
       "type": "string"
     }
   }
