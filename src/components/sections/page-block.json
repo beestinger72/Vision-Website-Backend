@@ -33,6 +33,12 @@
     },
     "ButtonUrl": {
       "type": "string"
+    },
+    "TitleBefore": {
+      "type": "string"
+    },
+    "TitleAfter": {
+      "type": "string"
     }
   }
 }
