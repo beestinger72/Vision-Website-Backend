@@ -45,6 +45,9 @@
     },
     "ClassName": {
       "type": "string"
+    },
+    "CenterSection": {
+      "type": "boolean"
     }
   }
 }
