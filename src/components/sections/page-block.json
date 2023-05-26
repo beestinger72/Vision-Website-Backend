@@ -42,6 +42,9 @@
     },
     "BadgeIcon": {
       "type": "string"
+    },
+    "ClassName": {
+      "type": "string"
     }
   }
 }
