@@ -9467,6 +9467,11 @@ strapi-plugin-oembed@^1.0.1:
   resolved "https://registry.yarnpkg.com/strapi-plugin-oembed/-/strapi-plugin-oembed-1.0.1.tgz#7689dac43e08f8e4a4115f1b54e330d957acb287"
   integrity sha512-h5w2Jm5nB5ph98TKcp5hLPnPoPR2XvTw/icB4WyLxnuMt8UTh+biOXE6RWlQBq6GUUt3A1tZ019pMGuROgUGIw==
 
+strapi-plugin-populate-deep@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-2.0.0.tgz#dd558eaef2fe47583a63536964b46a945e93f555"
+  integrity sha512-IsdXZPjRiOnaczoQaXI6xfxnFqUhR70uW1VCRbY4a3hEmmocpCpIUGx7TiHdNPJOZuDiueTgEIQ4V5XEru9Lvw==
+
 strapi-provider-upload-do@^3.6.9:
   version "3.6.9"
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-do/-/strapi-provider-upload-do-3.6.9.tgz#001867b70108ac04c7cc84206e20ba5f78ab6513"

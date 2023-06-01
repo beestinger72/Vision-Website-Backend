@@ -17,11 +17,12 @@
     "@strapi/plugin-seo": "^1.8.0",
     "@strapi/plugin-users-permissions": "4.9.0",
     "@strapi/strapi": "4.9.0",
-       "mysql": "2.18.1",
+    "mysql": "2.18.1",
     "pg": "^8.10.0",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-duplicate-button": "^1.1.7",
     "strapi-plugin-oembed": "^1.0.1",
+    "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-provider-upload-do": "^3.6.9",
     "strapi-provider-upload-dos": "^4.0.5"
   },
