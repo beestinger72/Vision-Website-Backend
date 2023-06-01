@@ -65,6 +65,15 @@
     },
     "ImageSmallClass": {
       "type": "string"
+    },
+    "APISection": {
+      "type": "boolean"
+    },
+    "InfoSection": {
+      "type": "boolean"
+    },
+    "FeatureSection": {
+      "type": "boolean"
     }
   }
 }

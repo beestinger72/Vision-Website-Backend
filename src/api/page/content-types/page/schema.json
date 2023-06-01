@@ -82,18 +82,6 @@
       "type": "component",
       "repeatable": true,
       "component": "sections.info-block"
-    },
-    "FeatureSection": {
-      "type": "boolean"
-    },
-    "InfoSection": {
-      "type": "boolean"
-    },
-    "APISection": {
-      "type": "boolean"
-    },
-    "TabsSection": {
-      "type": "boolean"
     }
   }
 }
