@@ -41,6 +41,9 @@
     },
     "ImageCssClass": {
       "type": "string"
+    },
+    "HeroCssClass": {
+      "type": "string"
     }
   }
 }
