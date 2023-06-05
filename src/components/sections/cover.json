@@ -38,6 +38,9 @@
     },
     "CssClass": {
       "type": "string"
+    },
+    "ImageCssClass": {
+      "type": "string"
     }
   }
 }
