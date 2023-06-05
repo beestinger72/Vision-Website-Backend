@@ -35,6 +35,9 @@
     },
     "titleunderlineafter": {
       "type": "string"
+    },
+    "CssClass": {
+      "type": "string"
     }
   }
 }
