@@ -44,6 +44,9 @@
     },
     "HeroCssClass": {
       "type": "string"
+    },
+    "HeroDarkMode": {
+      "type": "boolean"
     }
   }
 }
