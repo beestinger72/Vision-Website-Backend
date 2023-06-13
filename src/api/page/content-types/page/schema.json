@@ -82,6 +82,11 @@
       "type": "component",
       "repeatable": true,
       "component": "sections.info-block"
+    },
+    "TabBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.tab-block"
     }
   }
 }
