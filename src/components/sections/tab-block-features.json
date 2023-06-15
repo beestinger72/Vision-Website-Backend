@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_tab_block_features",
+  "info": {
+    "displayName": "TabBlockFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

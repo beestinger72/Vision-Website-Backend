@@ -9,9 +9,6 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -28,6 +25,28 @@
     },
     "TabIcon": {
       "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "ButtonVisible": {
+      "type": "boolean"
+    },
+    "ButtonUrl": {
+      "type": "string"
+    },
+    "TabBlockFeatures": {
+      "type": "boolean"
+    },
+    "TabFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.tab-block-features"
     }
   }
 }
