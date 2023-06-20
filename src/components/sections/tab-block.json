@@ -47,6 +47,9 @@
       "type": "component",
       "repeatable": true,
       "component": "sections.tab-block-features"
+    },
+    "ButtonClass": {
+      "type": "string"
     }
   }
 }
