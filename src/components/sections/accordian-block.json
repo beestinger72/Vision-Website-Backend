@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_accordian_blocks",
+  "info": {
+    "displayName": "AccordianBlock"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}
