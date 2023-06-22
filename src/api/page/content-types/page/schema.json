@@ -87,6 +87,11 @@
       "type": "component",
       "repeatable": true,
       "component": "sections.tab-block"
+    },
+    "Faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.accordian-block"
     }
   }
 }
