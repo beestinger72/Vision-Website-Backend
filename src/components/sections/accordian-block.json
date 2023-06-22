@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_accordian_blocks",
   "info": {
-    "displayName": "AccordianBlock"
+    "displayName": "AccordianBlock",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,7 @@
       "type": "string"
     },
     "answer": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }
