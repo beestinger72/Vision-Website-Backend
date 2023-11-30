@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_solution_sections",
   "info": {
-    "displayName": "SolutionSection"
+    "displayName": "SolutionSection",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,6 +10,9 @@
       "type": "string"
     },
     "icon": {
+      "type": "string"
+    },
+    "bgcolor": {
       "type": "string"
     }
   }
