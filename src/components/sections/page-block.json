@@ -74,6 +74,9 @@
     },
     "FeatureSection": {
       "type": "boolean"
+    },
+    "SolutionBlock": {
+      "type": "boolean"
     }
   }
 }
