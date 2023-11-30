@@ -92,6 +92,11 @@
       "type": "component",
       "repeatable": true,
       "component": "sections.accordian-block"
+    },
+    "SolutionSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.solution-section"
     }
   }
 }
